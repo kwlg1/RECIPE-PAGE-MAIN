@@ -27,8 +27,8 @@ SIte de Cardápio simples. Usando HTML para estruturação da página, CSS para 
 
 ### Links
 
-- URL da solução: [Adicione a URL da solução aqui](https://your-solution-url.com)
-- URL do site ativo: [Adicione a URL do site ativo aqui](https://your-live-site-url.com)
+- URL da solução: [Adicione a URL da solução aqui](https://github.com/kwlg1/RECIPE-PAGE-MAIN.git)
+- URL do site ativo: [Adicione a URL do site ativo aqui](https://kwlg1.github.io/RECIPE-PAGE-MAIN/)
 
 ## Meu processo
 
@@ -151,9 +151,8 @@ Prentendo continuar do estudo extensivo de desevolvimento web. Focando na parte 
 
 ## Autor
 
-- Site - [Adicione seu nome aqui](https://www.your-site.com)
-- Frontend Mentor - [@seunome](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@seunome](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@kwlg1](https://www.frontendmentor.io/profile/kwlg1)
+- Github - [@kwlg1](https://github.com/kwlg1)
 
 **Observação: Apague esta nota e adicione/remova/edite as linhas acima de acordo com os links que você gostaria de compartilhar.**
 
