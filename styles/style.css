@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    color: hsl(30, 10%, 34%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+h1 {
+    color: hsl(24, 5%, 18%);
+    width: 90%;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    
+}
+p {
+    width: 90%;
+    text-align: justify;
+    font-size: 16px;
+}
+.card-preparation {
+    width: 90%;
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.card-ingredients, .card-instructions, .card-nutrition {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+}
+.card-nutrition {
+    border-bottom: none;
+}
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-weight: 700;
+}
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+.list-instructions {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 8px;
+    text-align: left;
+}
+
+.last-row td {
+    border-bottom: none;
+}
+
+#details-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: hsl(14, 45%, 36%);
+    font-size: large;
+    font-weight: 600;
+}
+
+
+/* Estilo para Telas Maiores (ex: Desktops) */
+@media screen and (min-width: 950px) {
+    body {
+        background-color: hsl(30, 18%, 87%);
+        font-size: 18px;
+        margin-top: 100px;
+    }
+
+    .container {
+        background-color: hsl(0, 0%, 100%);
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+}
+
+/* Estilo padrão (ex: para Celulares e Tablets) */
+
+@media screen and (max-width: 949px) {
+    body {
+        background-color: hsl(0, 0%, 100%);
+        top: 0;
+    }
+
+    .container {
+        width: 95vw;
+        margin-top: 50%;
+    }
+    img {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        padding-top: 0;
+    }
+}
