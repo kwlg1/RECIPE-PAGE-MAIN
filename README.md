@@ -27,8 +27,8 @@ SIte de Cardápio simples. Usando HTML para estruturação da página, CSS para 
 
 ### Links
 
-- URL da solução: [Repositório do Github](https://github.com/kwlg1/RECIPE-PAGE-MAIN.git)
-- URL do site ativo: [Site da Solução](https://kwlg1.github.io/RECIPE-PAGE-MAIN/)
+- Github: [Repositório do Github](https://github.com/kwlg1/RECIPE-PAGE-MAIN.git)
+- Site: [Site da Solução](https://kwlg1.github.io/RECIPE-PAGE-MAIN/)
 
 ## Meu processo
 
